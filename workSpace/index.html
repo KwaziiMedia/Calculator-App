@@ -8,29 +8,35 @@
 </head>
 <body>
     <div class="container">
+        <!-- Calculator Title -->
         <h1 id="title">Calculator</h1>
-            <div class="calculator">
-                    <div id="display"></div>
-                    <div class="calculatorGrid">
-                        <button class="num" id="num1" onclick="appendNumber('1')">1</button>
-                        <button class="num" id="num2" onclick="appendNumber('2')">2</button>
-                        <button class="num" id="num3" onclick="appendNumber('3')">3</button>
-                        <button class="num" id="num4" onclick="appendNumber('4')">4</button>
-                        <button class="num" id="num5" onclick="appendNumber('5')">5</button>
-                        <button class="num" id="num6" onclick="appendNumber('6')">6</button>
-                        <button class="num" id="num7" onclick="appendNumber('7')">7</button>
-                        <button class="num" id="num8" onclick="appendNumber('8')">8</button>
-                        <button class="num" id="num9" onclick="appendNumber('9')">9</button>
-                        <button class="num" id="num0" onclick="appendNumber('0')">0</button>
-                        <button class="num" id="minus" onclick="appendOperator('-')">-</button>
-                        <button class="num" id="plus" onclick="appendOperator('+')">+</button>
-                        <button class="num" id="divide" onclick="appendOperator('/')">/</button>
-                        <button class="num" id="multiply" onclick="appendOperator('*')">*</button>
-                        <button class="num" id="decimal" onclick="appendOperator('.')">.</button>
-                        <button class="num" id="equal" onclick="calculate()">=</button>
-                        <button class="num" id="Clear" onclick="clearDisplay()">AC</button>
-                    </div>
+            
+        <!-- Calculator Section -->
+        <div class="calculator">
+            <!-- Display Area -->
+            <div id="display"></div>
+            
+            <!-- Calculator Buttons -->
+            <div class="calculatorGrid">
+                <button class="num" id="num1" onclick="appendNumber('1')">1</button>
+                <button class="num" id="num2" onclick="appendNumber('2')">2</button>
+                <button class="num" id="num3" onclick="appendNumber('3')">3</button>
+                <button class="num" id="num4" onclick="appendNumber('4')">4</button>
+                <button class="num" id="num5" onclick="appendNumber('5')">5</button>
+                <button class="num" id="num6" onclick="appendNumber('6')">6</button>
+                <button class="num" id="num7" onclick="appendNumber('7')">7</button>
+                <button class="num" id="num8" onclick="appendNumber('8')">8</button>
+                <button class="num" id="num9" onclick="appendNumber('9')">9</button>
+                <button class="num" id="num0" onclick="appendNumber('0')">0</button>
+                <button class="num" id="minus" onclick="appendOperator('-')">-</button>
+                <button class="num" id="plus" onclick="appendOperator('+')">+</button>
+                <button class="num" id="divide" onclick="appendOperator('/')">/</button>
+                <button class="num" id="multiply" onclick="appendOperator('*')">*</button>
+                <button class="num" id="decimal" onclick="appendOperator('.')">.</button>
+                <button class="num" id="equal" onclick="calculate()">=</button>
+                <button class="num" id="Clear" onclick="clearDisplay()">AC</button>
             </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
